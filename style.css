@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+  background: url(https://c.pxhere.com/photos/5a/91/concert_festival_orange_flame_hands_up-1410537.jpg!d);
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.key {
+  color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 4px 2px;
+  font-size: 15px;
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: text-bottom;
+  transition: all 0.07s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffd6a0;
+  box-shadow: 0 0 10px #ffd6a0;
+}
+
+kbd {
+  display: block;
+  font-size: 80px;
+  text-align: center;
+}
